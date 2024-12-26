@@ -1,0 +1,41 @@
+.notfound{
+  text-align: center;
+}
+  
+.notfound h1{
+  font-size: 246px;
+  color: #339933;
+  font-family: "Montserrat", sans-serif;
+}
+
+.notfound h2{
+  font-size: 64px;
+  font-weight: bold;
+  color: #282828;
+  font-family: "Montserrat", sans-serif;
+}
+
+.notfound p{
+  font-size: 20px;
+  color: #8B8B8B;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bnt-notfound{
+  margin-top: 32px;
+  width: 209px;
+  height: 58px;
+  text-align: center;
+  background-color: #339933;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.bnt-notfound:hover{
+  background-color: #000;
+}

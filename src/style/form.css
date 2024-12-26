@@ -1,0 +1,102 @@
+.discount-section {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  background: linear-gradient(135deg, #339933 0%, #0B710B 60%);
+  height: 486px;
+  width: 100%;
+  max-width: 1360px;
+  margin: 20px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  padding: 0 20px;
+  margin-bottom: 80px;
+}
+    
+.discount-image img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  margin-top: 150px;
+}
+    
+.discount-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  z-index: 1; 
+}
+    
+.discount-title {
+  font-size: 64px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  margin-top: -70px;
+}
+    
+.discount-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 800px;
+  margin-left: 820px;
+  margin-top: 40px;
+}
+    
+.discount-input {
+  height: 32px;
+  width: 516px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  border-radius: 6px;
+  padding: 8px 32px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: -150px;
+}
+    
+.discount-input::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+    
+.discount-button {
+  width: 580px;
+  height: 48px;
+  margin-left: 37px;
+  background-color: #ffffff;
+  color: #333333;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+    
+.discount-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+  
+.discount-button.submitted {
+  background-color: transparent;
+  color: #28a745; 
+  cursor: default; 
+  box-shadow: none; 
+  border: 1px solid transparent;
+  text-align: center;
+} 
